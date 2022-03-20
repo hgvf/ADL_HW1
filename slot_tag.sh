@@ -1,0 +1,1 @@
+python ./slot/inference.py --ckpt_dir ./slot/tagging.pt --embedding_path ./slot/slot_embeddings.pt --tag2idx_path ./slot/tag2idx.json --vocab_path ./slot/slot_vocab.pkl --data_dir "${1}" --output_path "${2}"
