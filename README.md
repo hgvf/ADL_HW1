@@ -11,7 +11,7 @@ unzip glove.840B.300d.zip
 1.  前處理
 ``` 
 cd intent
-python preprocess.py
+python preprocess.py --data_dir <data_directory> --output_dir <output_directory> --glove_path <globe_path>
 ```
 
 2.  開始訓練模型 
@@ -23,7 +23,7 @@ python train.py --device <device> ...
 1.  前處理
 ```
 cd slot
-python preprocess.py
+python preprocess.py --data_dir <data_directory> --output_dir <output_directory> --glove_path <globe_path>
 ```
 
 2.  開始訓練模型
